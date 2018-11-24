@@ -10,6 +10,8 @@ This template will create the directories and basic files needed to start a web 
 The project files generated will have starter content as outlined in the Epicodus C Sharp course. The template will give relevant namespaces and paths for your project (i.e. TemplateMVC will be replaced everywhere with YourProjectName).
 
 The directory/file structure created is as follows:
+
+```
 TemplateMVC.Solution
 ├── README.md
 ├── .gitignore
@@ -27,6 +29,8 @@ TemplateMVC.Solution
 └── TemplateMVC.Tests
     └── TemplateMVC.Tests.csproj
     └── ModelTests
+
+```
 
 There is a lot more a person could do with this, but I'm keeping this simple for now, trying to stay within the scope of the type of projects we're currently doing at Epicodus. I will be adding to it as the course continues.
 
