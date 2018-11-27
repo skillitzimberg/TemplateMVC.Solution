@@ -41,7 +41,8 @@ There is a lot more a person could do with this, but I'm keeping this simple for
 ## Setup/Installation Requirements
 Clone the code from [GitHub](https://github.com/skillitzimberg/TemplateMVC.Solution).
 
-Install the template using the command line interface (cli)/terminal: $ dotnet new --install /Users/Your/Path/Here/TemplateMVC.Solution;
+Install the template using the command line interface (cli)/terminal:
+dotnet new --install /Users/Your/Path/Here/TemplateMVC.Solution
 
 Navigate to the directory that you want your project to be in (i.e. Desktop, Documents, or wherever you keep your projects).
 
