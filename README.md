@@ -12,11 +12,11 @@ The project files generated will have starter content as outlined in the Epicodu
 The directory/file structure created is as follows:
 
 ```
-TemplateMVC.Solution
+YourProjectName.Solution
 ├── README.md
 ├── .gitignore
-└── TemplateMVC
-    ├── TemplateMVC.csproj
+└── YourProjectName
+    ├── YourProjectName.csproj
     ├── Program.cs
     ├── Startup.cs
     ├── Controllers
@@ -26,8 +26,8 @@ TemplateMVC.Solution
         └── Home
             └── Index.cshtml
 
-└── TemplateMVC.Tests
-    └── TemplateMVC.Tests.csproj
+└── YourProjectName.Tests
+    └── YourProjectName.Tests.csproj
     └── ModelTests
 
 ```
