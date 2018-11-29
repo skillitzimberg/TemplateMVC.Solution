@@ -22,6 +22,14 @@ YourProjectName.Solution
     ├── Controllers
     │   └── HomeController.cs
     ├── Models
+    ├── wwwroot
+    │   └── css
+    │   │    └── bootstrap.min.css
+    │   │    └── styles.css
+    │   └── img
+    │   └── js
+    │       └── bootstrap.min.js
+    │       └── scripts.js
     └── Views
         └── Home
             └── Index.cshtml
