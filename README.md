@@ -70,6 +70,11 @@ Run the this command in the cli/terminal:
 For example: If your project is called Banana the command would be:
 * dotnet new templatemvc -n Banana -o Banana.Solution
 
+Remove .git directory: run this command in YourProjectName.Solution directory.
+* rm -rf .git
+
+Be sure to git init again for a fresh start!
+
 Open the directory in your text editor. Open the .template.config/template.json file and change the author name to your own. Read the article mentioned above for details on this file and how to this template was created.
 
 ## Known Bugs
