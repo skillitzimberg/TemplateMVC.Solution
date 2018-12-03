@@ -9,38 +9,34 @@ This template will create the directories and basic files needed to start a web 
 
 The project files generated will have starter content as outlined in the Epicodus C Sharp course. The template will give relevant namespaces and paths for your project (i.e. TemplateMVC will be replaced everywhere with the name you give to your project - YourProjectName).
 
-The directory/file structure created is as follows:
+The directory/file structure created is:
 
 ```
-YourProjectName.Solution
-├── README.md
-├── .gitignore
-└── YourProjectName
-    ├── YourProjectName.csproj
-    ├── Program.cs
-    ├── Startup.cs
-    ├── Controllers
-    │   └── HomeController.cs
-    ├── Models
-    ├── wwwroot
-    │   └── css
-    │   │    └── bootstrap.min.css
-    │   │    └── styles.css
-    │   └── img
-    │   └── js
-    │       └── bootstrap.min.js
-    │       └── scripts.js
-    └── Views
-        └── Home
-            └── Index.cshtml
-
-└── YourProjectName.Tests
-    └── YourProjectName.Tests.csproj
+TemplateMVC.Solution
+├── TemplateMVC
+│   ├── Controllers
+│   │   ├── HomeController.cs
+│   │   └── ClassController.cs
+│   ├── Models
+│   │   └── Class.cs
+│   ├── Program.cs
+│   ├── Startup.cs
+│   ├── TemplateMVC.csproj
+│   └── Views
+│       ├── Class
+│       │   ├── DeleteAll.cshtml
+│       │   ├── Index.cshtml
+│       │   ├── New.cshtml
+│       │   └── Show.cshtml
+│       ├── Home
+│       │   └── Index.cshtml
+└── TemplateMVC.Tests
+    ├── ControllerTests
+    │   ├── HomeControllerTests.cs
+    │   └── ClassControllerTests.cs
     ├── ModelTests
-    │    └── ClassTests.cs
-    └── ControllerTests
-        ├── ClassControllerTests.cs
-        └── HomeControllerTests.cs
+    │   └── ClassTests.cs
+    └── TemplateMVC.Tests.csproj
 
 ```
 

@@ -24,7 +24,7 @@ namespace TemplateMVC
       services.AddMvc();
     }
 
-    public void Configure(IApplicationBuilder app)
+    public void Configure(IApplicationBuilder app, IHostingEnvironment env)
     {
       app.UseDeveloperExceptionPage();
       app.UseMvc(routes =>
@@ -35,12 +35,16 @@ namespace TemplateMVC
       });
 
       app.UseStaticFiles();
-      
+
       app.Run(async (context) =>
       {
-          await context.Response.WriteAsync("Hello World!");
+          await context.Response.WriteAsync("TemplateMVC: Something went wrong . . .");
       });
 
     }
   }
+  public static class DBConfiguration
+{
+  public static string ConnectionString = "server=localhost;user id=root;password=root;port=8889;database=TemplateMVC;";
+}
 }
