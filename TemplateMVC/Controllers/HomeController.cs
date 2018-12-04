@@ -5,7 +5,7 @@ namespace TemplateMVC.Controllers
 {
     public class HomeController : Controller
     {
-        [Route("/index")]
+        [HttpGet("/")]
         public ActionResult Index()
         {
           return View();
