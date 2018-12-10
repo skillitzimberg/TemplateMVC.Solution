@@ -34,8 +34,10 @@ YourProjectName.Solution
 │   │   │   ├── Index.cshtml
 │   │   │   ├── New.cshtml
 │   │   │   └── Show.cshtml
+│   │   │
 │   │   ├── Home
 │   │   │   └── Index.cshtml
+│   │   │
 │   │   └── Shared
 │   │        └── _Layout.cshtml
 │   │
