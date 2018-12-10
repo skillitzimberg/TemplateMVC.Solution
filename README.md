@@ -14,6 +14,10 @@ The directory/file structure created is:
 ```
 YourProjectName.Solution
 ├── YourProjectName
+│   ├── Program.cs
+│   ├── Startup.cs
+│   ├── YourProjectName.csproj
+│   │
 │   ├── Controllers
 │   │   ├── HomeController.cs
 │   │   └── YourClassController.cs
@@ -21,11 +25,7 @@ YourProjectName.Solution
 │   ├── Models
 │   │   └── YourClass.cs
 │   │
-│   ├── Program.cs
-│   ├── Startup.cs
-│   ├── YourProjectName.csproj
-│   │
-│   └── Views
+│   ├── Views
 │   │   ├── YourClass
 │   │   │   ├── DeleteAll.cshtml
 │   │   │   ├── Index.cshtml
