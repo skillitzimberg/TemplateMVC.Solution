@@ -12,31 +12,31 @@ The project files generated will have starter content as outlined in the Epicodu
 The directory/file structure created is:
 
 ```
-TemplateMVC.Solution
-├── TemplateMVC
+YourProjectName.Solution
+├── YourProjectName
 │   ├── Controllers
 │   │   ├── HomeController.cs
-│   │   └── ClassController.cs
+│   │   └── YourClassController.cs
 │   ├── Models
-│   │   └── Class.cs
+│   │   └── YourClass.cs
 │   ├── Program.cs
 │   ├── Startup.cs
-│   ├── TemplateMVC.csproj
+│   ├── YourProjectName.csproj
 │   └── Views
-│       ├── Class
+│       ├── YourClass
 │       │   ├── DeleteAll.cshtml
 │       │   ├── Index.cshtml
 │       │   ├── New.cshtml
 │       │   └── Show.cshtml
 │       ├── Home
 │       │   └── Index.cshtml
-└── TemplateMVC.Tests
+└── YourProjectName.Tests
     ├── ControllerTests
     │   ├── HomeControllerTests.cs
-    │   └── ClassControllerTests.cs
+    │   └── YourClassControllerTests.cs
     ├── ModelTests
-    │   └── ClassTests.cs
-    └── TemplateMVC.Tests.csproj
+    │   └── YourClassClassTests.cs
+    └── YourProjectName.Tests.csproj
 
 ```
 
