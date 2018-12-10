@@ -40,22 +40,23 @@ YourProjectName.Solution
 │       ├── css
 │       │   ├── bootstrap.min.css
 │       │   └── styles.css
-│       ├── js
-│       │   └── scripts.js
-│       └── Shared
+│       │   
+│       └── js
 │           ├── bootstrap.min.js
-│           └── _Layout.cshtml
+│           └── scripts.js
 │
-└── YourProjectName.Tests
-    ├── ControllerTests
-    │   ├── HomeControllerTests.cs
-    │   └── YourClassControllerTests.cs
-    │
-    ├── ModelTests
-    │   └── YourClassClassTests.cs
-    │
-    └── YourProjectName.Tests.csproj
-
+├── YourProjectName.Tests
+│   ├── YourProjectName.Tests.csproj
+│   │
+│   ├── ControllerTests
+│   │   ├── HomeControllerTests.cs
+│   │   └── YourClassControllerTests.cs
+│   │
+│   └── ModelTests
+│       └── YourClassTests.cs
+│
+├── .gitignore
+└── README.md
 ```
 
 There is a lot more a person could do with this, but I'm keeping this simple for now, trying to stay within the scope of the type of projects we're currently doing at Epicodus. I will be adding to it as the course continues.
