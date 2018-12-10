@@ -44,7 +44,9 @@ There is a lot more a person could do with this, but I'm keeping this simple for
 
 ### Specifications:
 ##### Spec 1: Do a thing:
-- [ ] **Expect:** Input: some input; Output: some output;
+- [ ] **Expect:**  
+Input: some input;  
+Output: some output;
 
 ## Setup/Installation Requirements
 Clone the code from [GitHub](https://github.com/skillitzimberg/TemplateMVC.Solution).
