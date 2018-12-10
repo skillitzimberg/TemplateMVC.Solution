@@ -17,25 +17,43 @@ YourProjectName.Solution
 │   ├── Controllers
 │   │   ├── HomeController.cs
 │   │   └── YourClassController.cs
+│   │
 │   ├── Models
 │   │   └── YourClass.cs
+│   │
 │   ├── Program.cs
 │   ├── Startup.cs
 │   ├── YourProjectName.csproj
+│   │
 │   └── Views
-│       ├── YourClass
-│       │   ├── DeleteAll.cshtml
-│       │   ├── Index.cshtml
-│       │   ├── New.cshtml
-│       │   └── Show.cshtml
-│       ├── Home
-│       │   └── Index.cshtml
+│   │   ├── YourClass
+│   │   │   ├── DeleteAll.cshtml
+│   │   │   ├── Index.cshtml
+│   │   │   ├── New.cshtml
+│   │   │   └── Show.cshtml
+│   │   ├── Home
+│   │   │   └── Index.cshtml
+│   │   └── Shared
+│   │        └── _Layout.cshtml
+│   │
+│   └── wwwroot
+│       ├── css
+│       │   ├── bootstrap.min.css
+│       │   └── styles.css
+│       ├── js
+│       │   └── scripts.js
+│       └── Shared
+│           ├── bootstrap.min.js
+│           └── _Layout.cshtml
+│
 └── YourProjectName.Tests
     ├── ControllerTests
     │   ├── HomeControllerTests.cs
     │   └── YourClassControllerTests.cs
+    │
     ├── ModelTests
     │   └── YourClassClassTests.cs
+    │
     └── YourProjectName.Tests.csproj
 
 ```
