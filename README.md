@@ -13,6 +13,9 @@ The directory/file structure created is:
 
 ```
 YourProjectName.Solution
+├── .gitignore
+├── README.md
+│
 ├── YourProjectName
 │   ├── Program.cs
 │   ├── Startup.cs
@@ -45,18 +48,16 @@ YourProjectName.Solution
 │           ├── bootstrap.min.js
 │           └── scripts.js
 │
-├── YourProjectName.Tests
-│   ├── YourProjectName.Tests.csproj
-│   │
-│   ├── ControllerTests
-│   │   ├── HomeControllerTests.cs
-│   │   └── YourClassControllerTests.cs
-│   │
-│   └── ModelTests
-│       └── YourClassTests.cs
-│
-├── .gitignore
-└── README.md
+└── YourProjectName.Tests
+    ├── YourProjectName.Tests.csproj
+    │
+    ├── ControllerTests
+    │   ├── HomeControllerTests.cs
+    │   └── YourClassControllerTests.cs
+    │
+    └── ModelTests
+        └── YourClassTests.cs
+
 ```
 
 There is a lot more a person could do with this, but I'm keeping this simple for now, trying to stay within the scope of the type of projects we're currently doing at Epicodus. I will be adding to it as the course continues.
